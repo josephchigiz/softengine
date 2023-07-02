@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "editorInfo.foreground": "#ff0000"
+    },
+    "markdown.styles": [
+        "/home/ochego/Documents/ALX/Code/CustomStyles.css"
+    ]
+}
