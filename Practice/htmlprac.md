@@ -6,13 +6,13 @@
 ````html
 <Body>........</Body>
 ````
-- There are also empy elements e.g ````<Br>````
+- There are also empty elements e.g ````<Br>````
 - At the beginning of a html file, we need to put the declaration:
   ````html
   <!doctype html>
   ````
 - ...followed by ````<html>```` element.
-- The rest of the elememts that make up the web page are written within this element.
+- The rest of the elements that make up the web page are written within this element.
 - ````<head>```` contains important info about the page.
 - Here is a snippet example of html code;
 ````html
