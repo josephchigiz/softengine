@@ -47,3 +47,34 @@
 </ul>
 ````
 - Both lists have an ````<li>```` element embedded in them.
+### Tables
+- ````<table>```` It's the main element and everything is embedded inside it
+- ````<tr>```` is the element that identifies it as a table row
+- ````<td>```` is the element that contains table data 
+- ````<th>```` element identifies it as a column
+
+- My SoftEngine Company offers several services and the timings for these services are offered on my website in the form of this **table**;
+````html
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Services Available</th>
+                <th>Technician</th>
+            </tr>
+            <tr>
+                <td>11:30 - 12:30</td>
+                <td>Repairs</td>
+                <td>J.Ochego</td>
+            </tr>
+            <tr>
+                <td>14:00 - 15:00</td>
+                <td>One-on-one</td>
+                <td>D.Ogweno</td>
+            </tr>
+            <tr>
+                <td>17:00 - 18:00</td>
+                <td>Open-Store</td>
+                <td>Al.Fonsi</td>
+            </tr>
+        </table>
+````
