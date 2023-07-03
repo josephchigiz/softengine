@@ -37,4 +37,16 @@
 - There are two types of lists
   1. Ordered Lists ````<ol>````
   2. Unordered Lists ````<ul>````
+<<<<<<< HEAD
 - Both lists have an ````<li>```` element embedded in them.
+=======
+- Here is an example;
+````html
+<ul>
+  <li>First Item</li>
+  <li>Second Itemm</li>
+  <li>Third Item</li>
+</ul>
+````
+- Both lists have an ````<li>```` element embedded in them.
+>>>>>>> 7dcc34be70cf92bbd60de148301c3c8f5e2d32c7
