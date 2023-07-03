@@ -48,12 +48,12 @@
 ````
 - Both lists have an ````<li>```` element embedded in them.
 ### Tables
-- ````<table>```` It's the main element and everything is embedded inside it
-- ````<tr>```` is the element that identifies it as a table row
-- ````<td>```` is the element that contains table data 
+- ````<table>```` element is the main table element and everything is embedded inside it
+- ````<tr>```` element identifies it as a table row
+- ````<td>```` element contains table data 
 - ````<th>```` element identifies it as a column
 
-- My SoftEngine Company offers several services and the timings for these services are offered on my website in the form of this **table**;
+- My SoftEngine Company offers several services and the timings for these services are displayed on my website in the form of this **table**;
 ````html
         <table>
             <tr>
