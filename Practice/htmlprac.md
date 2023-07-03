@@ -37,7 +37,7 @@
 - There are two types of lists
   1. Ordered Lists ````<ol>````
   2. Unordered Lists ````<ul>````
-- An example;
+- Here is an example;
 ````html
 <ul>
   <li>First Item</li>
