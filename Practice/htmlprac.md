@@ -38,3 +38,12 @@
   1. Ordered Lists ````<ol>````
   2. Unordered Lists ````<ul>````
 - Both lists have an ````<li>```` element embedded in them.
+- Here is an example;
+````html
+<ul>
+  <li>First Item</li>
+  <li>Second Itemm</li>
+  <li>Third Item</li>
+</ul>
+````
+- Both lists have an ````<li>```` element embedded in them.
