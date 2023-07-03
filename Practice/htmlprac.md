@@ -29,3 +29,12 @@
     </body>
 
 </html>
+````
+- ````<br>```` element is used to add line breaks.
+- For extra space between words in a phrase, we use ````&nbsp````
+
+### Lists 
+- There are two types of lists
+  1. Ordered Lists ````<ol>````
+  2. Unordered Lists ````<ul>````
+- Both lists have an ````<li>```` element embedded in them.
