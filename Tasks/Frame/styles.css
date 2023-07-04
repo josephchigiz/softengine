@@ -1,0 +1,43 @@
+body
+{
+    border: 3px solid black;
+    height: 100vh;
+    padding: 10px;
+}
+header
+{
+    border: 2px solid black;
+    height: 100px;
+    padding: 10px;
+}
+header div
+{
+    border: 1px solid black;
+    /*height: inherit;*/
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.company-logo
+{
+border: 1px solid red;
+width: 250px;
+border-radius: 5px;
+}
+.company-logo a
+{
+    border: 1px solid lightgreen;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-links
+{
+    width: 250px;
+}
+
+#nav-links a
+{
+    border: 1px solid red;
+}
