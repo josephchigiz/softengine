@@ -144,4 +144,6 @@ Are seen when you see an attribute without a value. It can only have one attribu
 - To write a comment, you wrap it inside &lt;!--  &nbsp; &nbsp; --&gt;. For example;
 ````html
 <p>I am not a comment</p>
-<!-- I am -->````
+<!-- I am -->
+```` 
+🥳🥳<strong>Congratulations on completing The Intro to Basic HTML</strong> 
