@@ -1,4 +1,4 @@
-# <center> HTML BASICS *(w/joe)*<center>
+# <center> HTML BASICS *(w/joe)* <img src="JosephOchego.jpg" alt="Joseph Ochego"> <center>
 ### Intro To HTML
 - <> Tags Make up HTML, they are enclosed in these angled brackets
 - **Markup Element** - Tags that Contain something within them e.g
@@ -91,7 +91,7 @@
 - Not all the elements follow the standard opening tag-closing tag syntax. Some of them have a stand-alone tag e.g ````<img>````.
 - **Void elements** are usually used to embed/insert something into the document e.g ````<img>```` used to insert an image to a page;
 ````html
-<img src="file:///home/ochego/Pictures/JosephOchego.jpg" alt="Joseph Ochego">
+<img src="JosephOchego.jpg" alt="Joseph Ochego">
 ````
 - Adding a closing ***/>*** is not required but is valid. It can also be used to make your HTML a valid XML.
 ## Attributes
