@@ -1,4 +1,4 @@
-# <center> HTML BASICS *(w/joe)* </center>
+# <center><section id="HTML-BASICS-*w/joe*"> HTML BASICS *(w/joe)* </center>
 
 <center> <img src="JosephOchego.jpg" alt="Joseph Ochego" width="200" height="200"> </center>
 
@@ -150,4 +150,4 @@ Are seen when you see an attribute without a value. It can only have one attribu
 <p>I am not a comment</p>
 <!-- I am -->
 ```` 
-🥳🥳<strong>Congratulations on completing The Intro to Basic HTML</strong> 
+🥳🥳<strong>Congratulations on completing [`HTML BASICS w/joe`](#HTML-BASICS-*w/joe*)
