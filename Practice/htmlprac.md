@@ -9,6 +9,8 @@
 ````html
 <Body>........</Body>
 ````
+***Keep in Mind that the element is made up of the opening tag, the content, and the closing tag.**
+
 - There are also empty elements e.g ````<Br>````
 - At the beginning of a html file, we need to put the declaration:
   ````html
@@ -34,13 +36,12 @@
 </html>
 ````
 - ````<br>```` element is used to add line breaks.
-- For extra space between words in a phrase, we use ````&nbsp````
+- For extra space between words in a phrase, we use ````&nbsp;````
 
 ### Lists 
 - There are two types of lists
   1. Ordered Lists ````<ol>````
   2. Unordered Lists ````<ul>````
-- Both lists have an ````<li>```` element embedded in them.
 - Here is an example;
 ````html
 <ul>
@@ -56,7 +57,7 @@
 - ````<td>```` element contains table data 
 - ````<th>```` element identifies it as a column
 
-- My SoftEngine Company offers several services and the timings for these services are displayed on my website in the form of this **table**;
+- **EXAMPLE:** SoftEngine Company offers several services and the timings for these services are displayed on my website in the form of this **table**;
 ````html
         <table>
             <tr>
@@ -81,7 +82,6 @@
             </tr>
         </table>
 ````
-***Keep in Mind that the element is made up of the opening tag, the content, and the closing tag.**
 
 ### Nesting
 - We can put other elements within other elements. e.g
@@ -120,8 +120,10 @@ Are seen when you see an attribute without a value. It can only have one attribu
 ````
 - The "" around an attribute's value can be omitted no problem. An issue arises when there are spaces between the value's characters e.g ````title=My Reddit HomePage````. HTML will read the title as three  separate attributes.
 - It is advisable to **always** include the attributes quotes to avoid confusion.
-- Double or single quotes can be used, depending on the dev's style. However, using them together is going to break the code.  You can also use on type of quote to enclose the value and the other when you want to include it in the value, for example ````html
-<a href="https://www.google.com" title="Ochego's Title">My Title</a>````
+- Double or single quotes can be used, depending on the dev's style. However, using them together is going to break the code.  You can also use on type of quote to enclose the value and the other when you want to include it in the value, for example 
+````html
+<a href="https://www.google.com" title="Ochego's Title">My Title</a>
+````
 
 ## The HTML MINIONS
 1. ````<!DOCTYPE html>````
@@ -134,13 +136,12 @@ Are seen when you see an attribute without a value. It can only have one attribu
 ## Character Reference
 - How do you write characters like opening and closing brackets without html interpreting them as code?
 - For this, we use character references. Each character ref starts with ampersand(&) and ends with a semicolon(;);
-   - < = &lt
-   - -> = &gt
-   - " = &quot
-   - ' = &apos
-   - & = &amp
-- ***not*** included (;) to avoid translation
-- These char refs can be remembered because the text it uses can be seen as less than for '&lt' and apostrophe for '&apos'
+   - < = ````&lt;````
+   - ````>```` =````&gt;````
+   - " = ````&quot;````
+   - ' = ````&apos;````
+   - & = ````&amp;````
+- These char refs can be remembered because the text it uses can be seen as less than for '````&lt````' and apostrophe for '````&apos````'
 ## HTML Commenting
 - Browsers ignore comments, making them invisible to the user.
 - This allows you to include notes to help you and others understand your code.
