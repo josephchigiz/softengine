@@ -78,3 +78,70 @@
             </tr>
         </table>
 ````
+***Keep in Mind that the element is made up of the opening tag, the content, and the closing tag.**
+
+### Nesting
+- We can put other elements within other elements. e.g
+  - to indicate that I really love my computer, I can enclose love in ````<strong>```` element.
+````html
+<p>I <strong>really love</strong> my computer</p>
+````
+- If ````<p>```` was opened first and ````<strong>```` nested in it, the nested element should be closed first then the main one to close everything.
+## Void Elements
+- Not all the elements follow the standard opening tag-closing tag syntax. Some of them have a stand-alone tag e.g ````<img>````.
+- **Void elements** are usually used to embed/insert something into the document e.g ````<img>```` used to insert an image to a page;
+````html
+<img src="file:///home/ochego/Pictures/JosephOchego.jpg" alt="Joseph Ochego">
+````
+- Adding a closing ***/>*** is not required but is valid. It can also be used to make your HTML a valid XML.
+## Attributes
+- Elements also have attributes. They can be written in the following manner;
+````html
+<p class="editor's-note">I really love my computer.</p>
+````
+- Attributes contain extra information about the element that won't appear in the content.
+- An attribute should have:
+  - A space between it and the element name. (For an element with more than one attribute, the attributes should be separated by spaces too.)
+  - The attribute name, followed by an equal sign.
+  - An attribute value, wrapped with opening and closing quote marks.
+
+Another important element is ````<a>```` which is an ***anchor*** element - it transforms text into a hyperlink. The anchor element takes a number of attributes including:
+- **href**, whose value specifies the web address of the ink e.g ***"https://wwww.reddit.com"***
+- **title**, provides additional info about the page being linked for example, ***"The Reddit Homepage"***
+- **target**, specifies the browsing context used to display the link, for example ```` target="_blank"````,which opens the link in a new tab.
+
+## Boolean Attributes
+Are seen when you see an attribute without a value. It can only have one attribute which is usually same as the attribute name. For example the **disabled** attribute(used to disable form entry. Appears greyed out usually.)
+````html
+<input type="text" disabled="disabled"/>
+````
+- The "" around an attribute's value can be omitted no problem. An issue arises when there are spaces between the value's characters e.g ````title=My Reddit HomePage````. HTML will read the title as three  separate attributes.
+- It is advisable to **always** include the attributes quotes to avoid confusion.
+- Double or single quotes can be used, depending on the dev's style. However, using them together is going to break the code.  You can also use on type of quote to enclose the value and the other when you want to include it in the value, for example ````html
+<a href="https://www.google.com" title="Ochego's Title">My Title</a>````
+
+## The HTML MINIONS
+1. ````<!DOCTYPE html>````
+2. ````<html></html>```` wraps all the page's content. Also <em>the root</em> element.
+3. ````<head></head>```` element acts as a container for everything you want to include on the HTML page, that isn't the content the page will show to viewers.
+4. ````<meta charset="utf-8">````
+5. ````<title></title>```` sets the title of the page.
+6. ````<body></body>```` contains all the content that will be displayed on the page.
+
+## Character Reference
+- How do you write characters like opening and closing brackets without html interpreting them as code?
+- For this, we use character references. Each character ref starts with ampersand(&) and ends with a semicolon(;);
+   - < = &lt
+   - -> = &gt
+   - " = &quot
+   - ' = &apos
+   - & = &amp
+- ***not*** included (;) to avoid translation
+- These char refs can be remembered because the text it uses can be seen as less than for '&lt' and apostrophe for '&apos'
+## HTML Commenting
+- Browsers ignore comments, making them invisible to the user.
+- This allows you to include notes to help you and others understand your code.
+- To write a comment, you wrap it inside &lt;!--  &nbsp; &nbsp; --&gt;. For example;
+````html
+<p>I am not a comment</p>
+<!-- I am -->````
