@@ -1,4 +1,5 @@
-# <center> HTML BASICS *(w/joe)* <center>
+# <center> HTML BASICS *(w/joe)* </center>
+
 <center> <img src="JosephOchego.jpg" alt="Joseph Ochego" width="200" height="200"> </center>
 
 ### Intro To HTML
