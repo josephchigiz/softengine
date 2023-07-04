@@ -1,4 +1,5 @@
-# <center> HTML BASICS *(w/joe)* <img src="JosephOchego.jpg" alt="Joseph Ochego"> <center>
+# <center> HTML BASICS *(w/joe)* <center>
+<center> <img src="JosephOchego.jpg" alt="Joseph Ochego" width="200" height="200"> </center>
 ### Intro To HTML
 - <> Tags Make up HTML, they are enclosed in these angled brackets
 - **Markup Element** - Tags that Contain something within them e.g
