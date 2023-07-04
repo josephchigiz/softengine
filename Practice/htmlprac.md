@@ -42,7 +42,7 @@
 ````html
 <ul>
   <li>First Item</li>
-  <li>Second Itemm</li>
+  <li>Second Item</li>
   <li>Third Item</li>
 </ul>
 ````
