@@ -24,14 +24,14 @@ body {
   }
    
   a {
-    border-bottom: 2px solid #bf0d0b;
-    color: #bf0d0b;
+    border-bottom: 2px solid #fdfbfb;
+    color: #0b77bf;
     font-weight: 700;
   }
    
   a:hover {
     color: #fff;
-    background: #bf0d0b;
+    background: #ffffff;
   }
    
   strong {
