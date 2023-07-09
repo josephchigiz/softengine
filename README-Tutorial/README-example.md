@@ -9,7 +9,7 @@ This app picks out a bunch of outfits, from stylish ones, to classy and official
 ## Index📃
 1. [Installation](#installation)
 2. [Setup and Usage](#setup-and-usage)
-3. [Credits](#credits)
+3. [Credits](#credits-🙏🏽)
 
 ## Installation 📲
 You can find the **Daily Outfit** app on Android from the Play Store or on the iPhone from the App Store.  
