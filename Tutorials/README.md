@@ -23,4 +23,5 @@ A clear README is powerful tool that can work positively for your project, while
 
 As [Hillary Nyakundi](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/) said in his article;
 >"There is not one right way to structure a good README. But there is
-one very wrong way, and that is to not include a README at all."
+one very wrong way, and that is to not include a README at all."  
+[![image](https://www.freecodecamp.org/news/content/images/size/w2000/2021/04/uide-to-writting-a-good-readme-file--1-.png)](https://www.freecodecamp.org/news/content/images/size/w2000/2021/04/uide-to-writting-a-good-readme-file--1-.png)
