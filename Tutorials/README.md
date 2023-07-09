@@ -11,4 +11,5 @@ This is a very valid question, and here is why having a README that is clear, si
 
 With a good README, other coders/devs *( & even non-devs)*, can easily understand your code and your project.<br>
 Reading your README, would you be able to understand what is going on if the project was not yours? And how easily?<br>
-A clear README is powerful tool that can work positively for your project, while the opposite of that can be very destructive despite having a good project.  
+A clear README is powerful tool that can work positively for your project, while the opposite of that can be very destructive despite having a good project.<br>
+**(TLDR)** - In a nutshell, your README should describe what the project is about, what is needed to accomplish it and what the desired outcomes are.  
