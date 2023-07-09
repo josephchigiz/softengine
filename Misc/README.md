@@ -5,7 +5,7 @@ In this tutorial, we learn about writing clear and simple README files while ens
 1. [Why](#why🤔)
 2. [Structure of a good README](#structure-of-a-good-readme-file)
 ## Why?🤔
-Why do we have to write good README(s)? Is it not the **code** that matters?<br>
+Why do we have to write good README(s)? Is it not the code that matters?<br>
 This is a very valid question, and here is why having a README that is clear, simple and intuitive is important;  
 - It is the first thing a person sees when they encounter your project *(so it should be brief but detailed.)*  
 - It will ensure that your project stands out from many others.*(The project should be good too💯)*
@@ -25,3 +25,6 @@ As [Hillary Nyakundi](https://www.freecodecamp.org/news/how-to-write-a-good-read
 >"There is not one right way to structure a good README. But there is
 one very wrong way, and that is to not include a README at all."  
 [![image](https://www.freecodecamp.org/news/content/images/size/w2000/2021/04/uide-to-writting-a-good-readme-file--1-.png)](https://www.freecodecamp.org/news/content/images/size/w2000/2021/04/uide-to-writting-a-good-readme-file--1-.png)
+
+
+#
