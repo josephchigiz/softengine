@@ -60,7 +60,7 @@ ___
 <!--Use three underscores to create a footer, where the license section is a contained.   -->
 State the licence used, if any. *(Used for major projects)*  
 
-<center>___End OF README___</center>
+<center>___End OF README___</center> *Extras👇*
 
 > Several formatting styles have been included in the code of this tutorial intentionally, to act as examples for the markdown syntax.
 ___
