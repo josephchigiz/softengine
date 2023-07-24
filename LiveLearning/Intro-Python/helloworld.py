@@ -1,3 +1,7 @@
+#! Variables
+
+# * Variables are used to store data in a computer.
+
 customer = "Ochego"
 product = "RasPi"
 quantity = 4
@@ -29,7 +33,7 @@ print(float_price)
 print(int_weight)
 
 # !Data Types;
-
+# There are several types of data types in Python;
 ################################## *String Types; #######################################
 '''
 Strings --> str "" e.g "Nairobi", "Ochego", "ALX", *"1000"* etc.
@@ -109,11 +113,10 @@ print(type(is_correct_spelling_correct))
 wow = 1000000 > 10
 print(wow)
 
-# *Sequence Types -> Lists, Tuples, Range; 
+# *Sequence Types -> Lists, Tuples, Range;
 # *Mapping Types -> Dict;
 # *Set Types -> Set, frozenset;
-# *Nonetype
-
+# *Nonetype;
 ############################## ! Operators; #######################################
 
 ##### *Arithmetic Operators; 
