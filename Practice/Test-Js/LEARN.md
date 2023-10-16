@@ -139,4 +139,22 @@ If you have time, you can go through the extras below.
 ## Extras!!  
 #### Using JavaScript with DOM API  
 
-> The ***`DOM API`***(Document Object Model API) is a programming interface for web pages. It represents the structure of HTML and XML documents in a tree-like form, with each element in the doc represented as a node in the tree. This allows developers to access, manipulate, and modify the structure and content of the web documents using programming languages such as JavaScript
+> The ***`DOM API`***(Document Object Model API) is a programming interface for web pages. It represents the structure of HTML and XML documents in a tree-like form, with each element in the doc represented as a node in the tree. This allows developers to access, manipulate, and modify the structure and content of the web documents using programming languages such as JavaScript  
+
+We got a peek into how the `eventlistener` listened to click and runs code in response.  
+Here, we will use JavaScript to respond to clicks by changing the image displayed.  
+
+Now in your main JS file, maybe `"main.js"`. Add the following code to your `main.js`:  
+
+```js
+    const myImage = document.querySelector("img");
+
+    myImage.onclick = () => {
+        const mySrc = myImage.getAttribute("src");
+        if (mySrc === "images/firefox-icon.png") {
+            myImage.setAttribute("src", "images/firefox2.png");
+        } else {
+            myImage.setAttribute("src", "images/firefox-icon.png");
+        }
+    };
+```
