@@ -222,4 +222,22 @@ graphic.introduceSelf();
 - create a new object
 - bind 'this' to the new object
 - run the code in the constructor
+- return the new constructor
 */
+
+//* Constructors typically are named with a capital letter, and with a name for the type of object they create.
+//* We can rewrite our example like this::
+
+function Person(name) {
+    this.name = name;
+    this.introduceSelf = function () {
+        console.log(`Hi! I'm ${this.name}.`);
+    };
+}
+
+//*To call Person() as a constructor, use new.
+
+const manchego = new Person("Manchego");
+manchego.name;
+manchego.introduceSelf();
+
