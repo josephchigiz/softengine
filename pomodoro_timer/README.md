@@ -1,6 +1,6 @@
 # Pomodoro Study Timer 🍅
 
-Welcome to the Pomodoro Study Timer repository! 🚀
+Welcome to the <a href="https://htmlpreview.github.io/?https://github.com/josephchigiz/softengine/blob/master/pomodoro_timer/index.html" title="Try it out!">Pomodoro Study Timer</a> repository! 🚀
 
 ## What is Pomodoro Study Timer?
 
