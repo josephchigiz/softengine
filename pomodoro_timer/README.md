@@ -26,6 +26,6 @@ Found a bug or have an idea to make this timer even better? I welcome your contr
 
 ## Credits
 
-This project was created with ❤️ by @josephchigiz. 
+This project was created with ❤️ by [@josephchigiz](https://github.com/josephchigiz). 
 
 Enjoy your productive study time with the Pomodoro Study Timer! 📚🎓🍅
